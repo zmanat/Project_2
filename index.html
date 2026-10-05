@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#495c4c">
+  <meta name="description" content="Дом, увитый плющом: тихие гостевые комнаты, старый сад, тропинка к реке и вечера у белёной печи. Приезжайте погостить.">
+  <title>Дом, увитый плющом — погостить у старого сада</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2325372e'/%3E%3Cpath d='M20 48Q30 32 44 16M29 36Q10 34 17 19Q31 20 29 36M34 29Q35 12 50 15Q49 30 34 29' fill='%23cfb989' stroke='%23cfb989' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="preload" href="assets/house-concept-v1.webp" as="image">
+  <link rel="stylesheet" href="styles.css?v=5">
+  <script src="script.js?v=5" defer></script>
+</head>
+<body>
+  <svg width="0" height="0" aria-hidden="true" style="position:absolute"><defs><filter id="phone-alpha" color-interpolation-filters="sRGB"><feComponentTransfer><feFuncA type="linear" slope="1.3" intercept="-0.3"/></feComponentTransfer></filter></defs></svg>
+  <a class="skip-link" href="#about">Перейти к содержанию</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Дом, увитый плющом — начало">Дом, увитый плющом<span>ГОСТИТЬ · ГУЛЯТЬ · НЕ СПЕШИТЬ</span></a>
+    <nav aria-label="Основная навигация"><a href="#garden">Сад</a><a href="#inside">В доме</a><a href="#rooms">Комнаты</a><a href="#contact" class="contact-nav">Приехать в гости</a></nav>
+  </header>
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <img class="hero-photo" src="assets/house-concept-v1.webp" width="1536" height="1024" alt="Старинный кирпичный дом с зелёной верандой, укрытый осенним виноградом и пышным садом" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-copy"><p class="eyebrow">ТИХИЙ ДОМ НА ОПУШКЕ ЛЕСА</p><h1 id="hero-title">Там, где время<br><em>становится тише.</em></h1><p class="hero-description">Старый сад, тёплая печь и немного сказки.<br>Приезжайте погостить.</p><a class="button cream" href="#contact">Погостить в доме</a></div>
+      <div class="hero-foot"><span>Дом, увитый плющом</span><a href="#about">Заглянуть за калитку</a><span>Наедине с тихой осенью</span></div>
+    </section>
+    <section class="intro section-wrap" id="about"><p class="eyebrow green">ЗА СТАРОЙ КАЛИТКОЙ</p><h2>Есть места, где<br>становится <em>спокойнее.</em></h2><p>Дорожка теряется в саду, листья касаются окон, а в доме уже тепло. Здесь можно выспаться, дочитать книгу и провести день так, как давно хотелось.</p><p class="intro-note">Своя комната. Общая гостиная. Целый сад для неспешных прогулок.</p></section>
+    <section class="garden-section" id="garden" aria-labelledby="garden-title">
+      <div class="section-heading section-wrap"><div><p class="eyebrow green">ПРОГУЛКА ПО САДУ</p><h2 id="garden-title">Сад в разное<br><em>время суток.</em></h2></div><p>Выберите рассвет, закат или ночь —<br>и посмотрите, как меняется сад вокруг дома.</p></div>
+      <div class="garden-gallery">
+        <div class="gallery-frame" id="garden-panel" role="tabpanel" aria-labelledby="tab-evening" tabindex="0">
+          <img id="garden-image" src="assets/house-concept-v1.webp" width="1536" height="1024" alt="Дом в осеннем саду в тёплом свете заката" loading="lazy">
+          <div class="gallery-caption"><span id="garden-time">18:20 · ЗАКАТ</span><p id="garden-caption">Когда солнце задерживается в листве.</p></div>
+        </div>
+        <div class="garden-tabs" role="tablist" aria-label="Время суток в саду"><button id="tab-dawn" role="tab" aria-controls="garden-panel" aria-selected="false" tabindex="-1" data-scene="dawn"><span>01</span>Рассвет у реки</button><button id="tab-evening" role="tab" aria-controls="garden-panel" aria-selected="true" tabindex="0" data-scene="evening"><span>02</span>Закат в саду</button><button id="tab-night" role="tab" aria-controls="garden-panel" aria-selected="false" tabindex="-1" data-scene="night"><span>03</span>Ночные огни</button></div>
+      </div>
+        <div class="postcard-invite"><p>Пусть немного этого сада останется с вами.</p><button class="text-button" id="postcard-open">Сохранить открытку <span aria-hidden="true">↗</span></button></div>
+    </section>
+    <section class="inside section-wrap" id="inside" aria-labelledby="inside-title">
+      <div class="inside-photo"><img src="assets/interior-concept-v1.webp" width="1536" height="1024" alt="Гостиная с белёной печью, тёмными балками, креслом и растениями у зелёных окон" loading="lazy"><span>Сад продолжается за окнами. И внутри.</span></div>
+      <div class="inside-copy"><p class="eyebrow green">ТЕПЛО ОБЫЧНЫХ ВЕЩЕЙ</p><h2 id="inside-title">Устроиться<br><em>как дома.</em></h2><p>Печь хранит тепло, половицы чуть поскрипывают. На подоконнике цветёт герань, на столе — ветки из сада. Можно сесть с книгой у окна и забыть о времени.</p><div class="inside-detail"><h3>Своя тихая комната</h3><p>Место, чтобы выспаться, побыть с собой и проснуться без спешки.</p></div><div class="inside-detail"><h3>Гостиная для встреч</h3><p>Общий стол, неторопливые завтраки и разговоры возле печи. Здесь приятно собраться вечером.</p></div></div>
+    </section>
+    <section class="rooms-section section-wrap" id="rooms" aria-labelledby="rooms-title">
+      <div class="editorial-heading"><p class="eyebrow">ДВЕ КОМНАТЫ · СВОЙ УГОЛОК ТИШИНЫ</p><h2 id="rooms-title">Остаться<br><em>на несколько дней.</em></h2><p>В доме всего две гостевые комнаты. У каждой свой характер, а сад, гостиная и большой стол — общие.</p></div>
+      <div class="room-cards">
+        <article class="guest-room"><img src="assets/bedroom-garden.webp" alt="Спальня с двуспальной кроватью, зелёным окном в сад и креслом для чтения" width="1536" height="1024" loading="lazy"><div class="guest-room-copy"><p class="eyebrow">ДЛЯ ДВОИХ · ДВУСПАЛЬНАЯ КРОВАТЬ</p><h3>С окнами в сад</h3><p>Проснуться от света в листве. Почитать в кресле, пока дом ещё спит. Оставить окно приоткрытым и слушать сад.</p><button class="text-button" data-room="С окнами в сад">Узнать о комнате <span aria-hidden="true">↗</span></button></div></article>
+        <article class="guest-room"><img src="assets/bedroom-beams.webp" alt="Уютная спальня с двумя отдельными кроватями под тёмными деревянными балками" width="1536" height="1024" loading="lazy"><div class="guest-room-copy"><p class="eyebrow">ДЛЯ 1–2 ГОСТЕЙ · ДВЕ КРОВАТИ</p><h3>Под деревянными балками</h3><p>Тёплое дерево, мягкий свет и книги под рукой. Комната для неспешных разговоров или нескольких дней наедине с собой.</p><button class="text-button" data-room="Под деревянными балками">Узнать о комнате <span aria-hidden="true">↗</span></button></div></article>
+      </div>
+      <p class="rooms-footnote">Утром — завтрак за общим столом. Вечером — гостиная и тепло печи.</p>
+    </section>
+    <section class="day-section section-wrap" aria-labelledby="day-title"><div class="editorial-heading"><p class="eyebrow">НИЧЕГО ОБЯЗАТЕЛЬНОГО</p><h2 id="day-title">Один день.<br><em>В своём ритме.</em></h2><p>Это лишь один из способов провести здесь день. Можно выбрать свой — или вовсе ничего не планировать.</p></div><ol class="day-path">
+      <li><span class="day-time">09:00 · УТРО</span><h3>К столу, без спешки</h3><p>Завтрак в гостиной. Чай, разговоры и свет из сада.</p></li>
+      <li><span class="day-time">11:00 · ПРОГУЛКА</span><h3>По тропинке к реке</h3><p>Захватить тёплый свитер и послушать, как шуршит листва.</p></li>
+      <li><span class="day-time">16:00 · ТИШИНА</span><h3>Ещё одна глава</h3><p>Книга у окна или чай в саду. Время никуда не торопит.</p></li>
+      <li><span class="day-time">20:00 · ВЕЧЕР</span><h3>Ближе к теплу</h3><p>Собраться у печи. За окном уже светятся огоньки.</p></li>
+    </ol></section>
+    <section class="practical section-wrap" id="visit" aria-labelledby="visit-title"><div><p class="eyebrow">ПЕРЕД ПОЕЗДКОЙ</p><h2 id="visit-title">Пара простых<br><em>подробностей.</em></h2><p>Осталось выбрать дни и договориться с хозяйкой. Всё важное можно обсудить одним звонком.</p></div><div class="questions">
+      <details><summary>Сколько гостей принимает дом?</summary><p>До четырёх гостей в двух отдельных комнатах. В одной — двуспальная кровать, в другой — две отдельные. Гостиная и сад доступны всем гостям.</p></details>
+      <details><summary>Что входит в отдых?</summary><p>Проживание в выбранной комнате, завтрак за общим столом, общая гостиная и прогулки по саду. Пожелания к питанию стоит обсудить заранее.</p></details>
+      <details><summary>Как узнать стоимость и свободные даты?</summary><p>Позвоните по номеру <a href="tel:1234567">123-45-67</a> и расскажите, когда и на сколько дней хотели бы приехать. Стоимость и возможность размещения обсуждаются с хозяйкой.</p></details>
+      <details><summary>Как добраться?</summary><p>Дом находится на опушке, рядом с рекой. Схему проезда и место встречи хозяйка подскажет при обсуждении поездки.</p></details>
+      <details><summary>Можно приехать с ребёнком или питомцем?</summary><p>Расскажите об этом при звонке, чтобы заранее обсудить условия и удобство размещения для всех гостей.</p></details>
+    </div></section>
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-heading section-wrap"><p class="eyebrow">ЕЩЁ НЕМНОГО ПОБУДЬТЕ ЗДЕСЬ</p><h2 id="contact-title">Этот дом<br><em>любит гостей.</em></h2><p>Один поворот времени — и за окнами загорается сад.<br>А старый телефон приглашает договориться о приезде.</p></div>
+      <div class="interactive-wrap">
+        <div class="scene-toolbar"><span class="scene-label" id="scene-label">Солнечный день</span><div class="scene-actions"><button id="time-toggle" aria-pressed="false">Зажечь вечер</button><button id="stove-toggle" aria-pressed="false">Открыть печь</button><button id="sound-toggle" aria-pressed="false">Звуки сада</button><button id="zoom-open">Рассмотреть комнату ↗</button></div></div>
+        <label class="volume-control" id="volume-control" hidden>Громкость <input id="volume" type="range" min="0" max="100" value="35" aria-label="Громкость звуков сада"><output id="volume-value" for="volume">35%</output></label>
+        <div id="room-home">
+        <div class="room" id="room" role="group" aria-label="Интерактивная иллюстрация гостиной: телефон, часы, печь и книга">
+          <img class="room-base" src="assets/room-day-v2.webp" width="1536" height="1024" alt="Рисованная гостиная с печью, растениями, зелёным окном, старинным телефоном и часами" loading="lazy">
+          <img class="room-night" src="assets/room-night-v2.webp" width="1536" height="1024" alt="" aria-hidden="true" loading="lazy">
+          <div class="stove-fire" aria-hidden="true"></div>
+          <div class="scene-layer telephone" aria-hidden="true"></div><div class="scene-layer pendulum" aria-hidden="true"></div>
+          <button class="hotspot phone-hotspot" id="phone-hotspot" aria-label="Старинный телефон: показать номер для связи"><span>Позвонить</span></button>
+          <button class="hotspot clock-hotspot" id="clock-hotspot" aria-label="Часы: зажечь вечерний сад и свет в комнате" aria-pressed="false"><span>День / ночь</span></button>
+          <button class="hotspot stove-hotspot" id="stove-hotspot" aria-label="Открыть дверцу печи и увидеть огонь" aria-pressed="false"><span>Открыть печь</span></button>
+          <img class="story-book" src="assets/story-book.webp" alt="" aria-hidden="true"><button class="hotspot book-hotspot" id="book-hotspot" aria-label="Книга: прочитать историю дома"><span>История дома</span></button>
+          <p class="scene-hint">Коснитесь часов — и сменится время суток</p>
+        </div>
+        </div>
+        <p class="scene-status sr-only" id="scene-status" aria-live="polite"></p>
+        <div class="room-mobile-actions"><div class="extra-actions"><button id="mobile-phone">Позвонить хозяйке</button><button id="book-open">История дома</button></div><span>Предметы на картинке тоже откликаются на касание.</span></div>
+      </div>
+      <div class="contact-bottom section-wrap"><div><p class="eyebrow">ПРИЕЗЖАЙТЕ ПОГОСТИТЬ</p><h3>Будем ждать вас.</h3><p>Позвоните, чтобы обсудить даты,<br>выбрать комнату и узнать дорогу к дому.</p></div><div class="contact-number"><a href="tel:1234567" aria-label="Позвонить по номеру 123-45-67">123-45-67</a><span>Связаться с хозяйкой дома</span></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>Дом, увитый плющом</span><span>Сад. Дом. Время для себя.</span><span>Учебный проект · вымышленная резиденция<br><a href="assets/audio/CREDITS.txt" target="_blank" rel="noopener">Записи звуков и лицензии</a></span></footer>
+  <dialog id="phone-dialog" aria-labelledby="phone-title"><button class="dialog-close" aria-label="Закрыть окно контактов">×</button><p class="eyebrow green">НА ДРУГОМ КОНЦЕ ПРОВОДА — ДОМ</p><h2 id="phone-title">Приезжайте<br><em>погостить.</em></h2><p>Обсудите с хозяйкой удобные даты,<br>свободные комнаты и дорогу к дому.</p><p id="selected-room" hidden></p><a class="dialog-phone" href="tel:1234567">123-45-67</a><a class="button forest" href="tel:1234567">Позвонить хозяйке</a><p class="demo-note">Учебный контакт — номер для демонстрации.</p></dialog>
+  <dialog id="room-zoom-dialog" class="zoom-dialog" aria-labelledby="zoom-title"><button class="dialog-close" data-close="room-zoom-dialog" aria-label="Закрыть увеличенную комнату">×</button><h2 id="zoom-title">Загляните поближе</h2><div class="zoom-controls"><button data-action="time-toggle">День / ночь</button><button data-action="stove-toggle">Печь</button><button data-action="sound-toggle">Звуки сада</button><button data-action="book-open">История дома</button><button data-action="mobile-phone">Телефон</button><label>Масштаб <input type="range" id="zoom-range" min="100" max="200" step="10" value="100"><output id="zoom-value">100%</output></label></div><p class="zoom-help">Касайтесь предметов. Увеличенную картинку можно прокручивать в стороны.</p><div class="zoom-scroll"><div id="zoom-stage"></div></div></dialog>
+  <dialog id="story-dialog" class="story-dialog" aria-labelledby="story-title"><button class="dialog-close" data-close="story-dialog" aria-label="Закрыть историю дома">×</button><p class="eyebrow">НЕБОЛЬШАЯ ИСТОРИЯ ДОМА</p><span class="story-chapter" id="story-chapter">I · Калитка</span><h2 id="story-title">Дом, который<br><em>умеет ждать.</em></h2><div id="story-text" class="story-text"></div><div class="story-pagination"><button id="story-prev" aria-label="Предыдущая страница">← Назад</button><span id="story-page" aria-live="polite">1 / 3</span><button id="story-next" aria-label="Следующая страница">Дальше →</button></div></dialog>
+  <dialog id="postcard-dialog" class="postcard-dialog" aria-labelledby="postcard-title"><button class="dialog-close" data-close="postcard-dialog" aria-label="Закрыть открытку">×</button><p class="eyebrow">НЕМНОГО САДА С СОБОЙ</p><h2 id="postcard-title">Открытка из дома</h2><label class="postcard-select">Время суток <select id="postcard-scene"><option value="dawn">Рассвет у реки</option><option value="evening" selected>Закат в саду</option><option value="night">Ночные огни</option></select></label><canvas id="postcard-canvas" width="1200" height="940" role="img" aria-label="Предпросмотр открытки с садом"></canvas><p id="postcard-status" role="status"></p><a id="postcard-download" class="button forest" download="garden-postcard.png" hidden>Скачать открытку · PNG</a></dialog>
+</body>
+</html>
